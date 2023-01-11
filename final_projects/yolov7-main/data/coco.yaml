@@ -1,0 +1,12 @@
+# COCO 2017 dataset http://cocodataset.org
+
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /Users/wanjiang/Documents/TCD/cs7gv1_computer_vision/final_projects/yolov7-main/strawberry_data/images/train  # 118287 images
+val: /Users/wanjiang/Documents/TCD/cs7gv1_computer_vision/final_projects/yolov7-main/strawberry_data/images/val  # 5000 images
+
+# number of classes
+nc: 3
+
+# class names
+names: [ "0", "1", "2" ]
+
